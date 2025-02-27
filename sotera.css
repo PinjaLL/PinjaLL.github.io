@@ -11,17 +11,22 @@ header{
     padding-top: 30px;
 }
 .alisivu-sisalto {
-    margin: 5% 20% 5% 20% ;
+    margin: 5% 15% 5% 15% ;
     flex-direction: row;
+    background-color: #fff0df;
+
+#kartta {
+    margin: 5%;
+}
     
 }
 .grid-teksti {
-    margin: 5% 20% 5% 20% ;
+    margin: 5% 15% 5% 15% ;
     flex-direction: row;
 }
 
 .grid-teksti2 {
-    margin: 5% 20% 5% 20% ;
+    margin: 5% 15% 5% 15% ;
     flex-direction: row;
 }
 
