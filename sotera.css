@@ -57,8 +57,8 @@ header{
 h1 {
    font-family: 'palatino linotype','';
     font-size: 40px;
-    color: #4a7212;
-    text-shadow: 4px 4px #fff0df;
+    color: #fff0df;
+    text-shadow: 4px 4px #4a7212;
     text-align: center;
     padding-top: 30px;
 }
@@ -94,7 +94,9 @@ nav a:hover {
     color:rgb(30, 14, 14);
     background-color:rgb(234, 223, 157);
 }
-
+#etusivu {
+background-image: url(./kuvat/7fdeb446-3866-4d32-98c4-5958930677ef.jpeg);
+}
 /*valittu saadaan näkyviin, millä sivulla ollaan*/
 
 .toimintakehote {
