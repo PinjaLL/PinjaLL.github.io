@@ -14,12 +14,21 @@ header{
     margin: 5% 15% 5% 15% ;
     flex-direction: row;
     background-color: #fff0df;
+}
 
+#h2yht {
+    margin: 5% 20% 5% 20% ;  
+}
+
+.kuva {
+    max-width: 40%;
+    vertical-align: middle;
+    width: 35%;
+}
 #kartta {
     margin: 5%;
 }
     
-}
 .grid-teksti {
     margin: 5% 15% 5% 15% ;
     flex-direction: row;
