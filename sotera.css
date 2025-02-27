@@ -6,6 +6,12 @@ body {
     margin: 0;
 }
 
+p {
+    margin: 5% 20% 5% 20% ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px ;
+}
+
 header{
     text-align: center;
     padding-top: 30px;
@@ -14,16 +20,18 @@ header{
     margin: 5% 15% 5% 15% ;
     flex-direction: row;
     background-color: #fff0df;
+    justify-content: space-around;
 }
 
 #h2yht {
     margin: 5% 20% 5% 20% ;  
 }
-
+/*id avulla saadaan css tiedostossa tehtyä tietylle asialle tietty haluttu*/
 .kuva {
     max-width: 40%;
     vertical-align: middle;
     width: 35%;
+    margin: 5% 20% 5% 20% ;
 }
 #kartta {
     margin: 5%;
@@ -44,6 +52,8 @@ header{
     flex-direction: row;
 }
 
+/* otsikot*/
+
 h1 {
    font-family: 'palatino linotype','';
     font-size: 40px;
@@ -55,45 +65,49 @@ h1 {
 h2 {
     font-family:'palatino linotype';
     font-size: 25px ;
-    text-align: left;
+    text-align: center;
     color:#4a7212;
 }
 h3{
     font-family: 'palatino linotype';
     font-size: 25px;
-    text-align:left ;
+    text-align:center ;
     color: #4a7212;
 }
 
 /*päävalikko*/
 nav a {
-    background: rgba(87, 54, 4);
+    background: rgb(220, 188, 173);
     font-family: otsikko, "sans serif";
-    color:whitesmoke;
+    color:rgb(30, 14, 14);
     text-decoration: none;
     display: inline-block;
-    border: 2px solid rgba(87, 54, 4);
+    border: 1px solid rgba(87, 54, 4);
 }
 nav a:hover {
-    color: rgba(87, 54, 4);
+    color: rgb(171, 120, 43);
     background-color: whitesmoke;
+    background: rgb(220, 188, 173);
+    display: inline-block;
 }
 #valittu {
-    color: rgba(87, 54, 4);
-    background-color:rgba(255, 235, 205, 0.6);
+    color:rgb(30, 14, 14);
+    background-color:rgb(234, 223, 157);
 }
 
+/*valittu saadaan näkyviin, millä sivulla ollaan*/
+
 .toimintakehote {
-    border: 2px solid rgba(87, 54, 4);
-    border-radius: 10px;
+    border: 2px solid #4a7212;
+    border-radius: 25px;
     background-color: whitesmoke;
     font-family: otsikko, "sans serif";
-    color: rgba(87, 54, 4);
-    padding: 16px 32px;
+    color: #4a7212;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
+    margin: 2px 2px;
     cursor: pointer;
 }
 
@@ -129,7 +143,7 @@ footer{
 /*tietokone*/
 @media screen and (min-width: 1920px) {
     #etusivu {
-        background-image: url(kuvat/paakuva-kahvila.jpg);
+        background-image: url(./kuvat/7fdeb446-3866-4d32-98c4-5958930677ef.jpeg);
         background-size: cover;
         height: 950px;
     }
@@ -159,4 +173,3 @@ footer{
         width: 100%;
         max-height: 15%;
     }
-}
