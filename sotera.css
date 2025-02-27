@@ -10,6 +10,12 @@ header{
     text-align: center;
     padding-top: 30px;
 }
+.alisivu-sisalto {
+    margin: 5% 20% 5% 20% ;
+    flex-direction: row;
+    
+}
+
 h1 {
    font-family: 'palatino linotype','';
     font-size: 40px;
