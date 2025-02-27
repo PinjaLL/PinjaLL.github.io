@@ -15,6 +15,20 @@ header{
     flex-direction: row;
     
 }
+.grid-teksti {
+    margin: 5% 20% 5% 20% ;
+    flex-direction: row;
+}
+
+.grid-teksti2 {
+    margin: 5% 20% 5% 20% ;
+    flex-direction: row;
+}
+
+.sisalto {
+    margin: 5% 10% 5% 10% ;
+    flex-direction: row;
+}
 
 h1 {
    font-family: 'palatino linotype','';
