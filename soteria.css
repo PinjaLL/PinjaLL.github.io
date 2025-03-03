@@ -1,0 +1,182 @@
+body {
+    color: darkslategray;
+    background-color: rgb(255, 235, 205, 0.305);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+header{
+    text-align: center;
+    padding-top: 30px;
+}
+.alisivu-sisalto {
+    margin: 5% 15% 5% 15% ;
+    flex-direction: row;
+    background-color: #fff0df;
+    justify-content: space-around;
+}
+
+.kuva {
+    max-width: 40%;
+    vertical-align: middle;
+    width: 35%;
+    margin: 5% 20% 5% 20% ;
+}
+#kartta {
+    margin: 5%;
+}
+    
+.grid-teksti {
+    margin: 5% 15% 5% 15% ;
+    flex-direction: row;
+}
+
+.grid-teksti2 {
+    margin: 5% 15% 5% 15% ;
+    flex-direction: row;
+}
+
+.sisalto {
+    margin: 5% 10% 5% 10% ;
+    flex-direction: row;
+}
+
+/* otsikot*/
+
+h1 {
+   font-family: 'palatino linotype','';
+    font-size: 40px;
+    color: #fff0df;
+    text-shadow: 4px 4px #4a7212;
+    text-align: center;
+    padding-top: 30px;
+}
+h2 {
+    font-family:'palatino linotype';
+    font-size: 25px ;
+    text-align: center;
+    color:#4a7212;
+}
+h3{
+    font-family: 'palatino linotype';
+    font-size: 25px;
+    text-align:center ;
+    color: #4a7212;
+}
+
+/* tekstejä*/
+
+p {
+    margin: 5% 20% 5% 20% ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px ;
+}
+#h2yht {
+    margin: 5% 20% 5% 20% ;  
+}
+/*id avulla saadaan css tiedostossa tehtyä tietylle asialle tietty haluttu*/
+
+/*päävalikko*/
+nav a {
+   
+    background: rgb(220, 188, 173);
+    font-family: otsikko, Arial, Helvetica, sans-serif;
+    color:rgb(30, 14, 14);
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid rgba(87, 54, 4);
+}
+nav a:hover {
+   
+    color: rgb(171, 120, 43);
+    background-color: whitesmoke;
+    background: rgb(220, 188, 173);
+    display: inline-block;
+}
+#valittu {
+    color:rgb(30, 14, 14);
+    background-color:rgb(246, 228, 222);
+}
+#etusivu {
+background-image: url(./kuvat/7fdeb446-3866-4d32-98c4-5958930677ef.jpeg);
+}
+/*valittu saadaan näkyviin, millä sivulla ollaan*/
+
+.toimintakehote {
+    border: 2px solid #4a7212;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    font-family: otsikko, "sans serif";
+    color: #4a7212;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+
+table {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+
+/*alatunniste*/
+footer{
+    font-family: otsikko, "sans serif";
+    font-size: 18px;
+    color: rgba(87, 54, 4);
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*mobiili*/
+@media (max-width: 600px) {
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+/*tietokone*/
+@media screen and (min-width: 1920px) {
+    #etusivu {
+        background-image: url(./kuvat/7fdeb446-3866-4d32-98c4-5958930677ef.jpeg);
+        background-size: cover;
+        height: 950px;
+    }
+    #alisivut {
+        background-image: url(kuvat/tausta.jpg);
+    }
+    nav a { 
+        font-size: 20px;
+        width: 130px;
+        height: 25px;
+        padding: 10px;
+        margin:5px 20px;
+    }
+    
+    #slogan {
+        font-size: 65px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    footer{
+        flex-direction: row;
+        text-align: left;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        max-height: 15%;
+    }
