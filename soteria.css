@@ -109,16 +109,16 @@ nav {
     background-color: #f8afa6;
     padding: 1px;
 }
-<<<<<<< HEAD
+
 #soteria {
     background-image: url(./kuvat/pilvet2.0.jpg);
     padding:55px;
     background-repeat: no-repeat;
-=======
+}
 #etusivu {
 background-image: url(./kuvat/7fdeb446-3866-4d32-98c4-5958930677ef.jpeg);
 background-size: cover;
->>>>>>> 8ef952c3dad86c5aa97fdfc78fe4dbcb509a2f6f
+
 }
 /*valittu saadaan näkyviin, millä sivulla ollaan*/
 
