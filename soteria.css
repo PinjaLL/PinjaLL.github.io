@@ -15,8 +15,21 @@ header{
     width: 35%;
     margin: 5% 20% 5% 20% ;
 }
+/* yhteystiedot sivun henkilö-kuvat*/
+
+/* index sivun kuva*/
+.indexkuva {
+   width: 35%;
+   height:55%; 
+   float:left;
+   margin-right: 20px;
+}
+
 #kartta {
-    margin: 5%;
+  margin: 5%;
+   margin-left: 20px;
+   float:right;
+ 
 }
     
 .grid-teksti {
@@ -96,10 +109,16 @@ nav {
     background-color: #f8afa6;
     padding: 1px;
 }
+<<<<<<< HEAD
 #soteria {
     background-image: url(./kuvat/pilvet2.0.jpg);
     padding:55px;
     background-repeat: no-repeat;
+=======
+#etusivu {
+background-image: url(./kuvat/7fdeb446-3866-4d32-98c4-5958930677ef.jpeg);
+background-size: cover;
+>>>>>>> 8ef952c3dad86c5aa97fdfc78fe4dbcb509a2f6f
 }
 /*valittu saadaan näkyviin, millä sivulla ollaan*/
 
@@ -129,6 +148,7 @@ table {
 
 /*alatunniste*/
 footer{
+    clear: both;
     font-family: otsikko, "sans serif";
     font-size: 18px;
     color: #122620;
