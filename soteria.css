@@ -24,8 +24,21 @@ header{
     width: 35%;
     margin: 5% 20% 5% 20% ;
 }
+/* yhteystiedot sivun henkilö-kuvat*/
+
+/* index sivun kuva*/
+.indexkuva {
+   width: 35%;
+   height:55%; 
+   float:left;
+   margin-right: 20px;
+}
+
 #kartta {
-    margin: 5%;
+  margin: 5%;
+   margin-left: 20px;
+   float:right;
+ 
 }
     
 .grid-teksti {
@@ -101,6 +114,7 @@ nav a:hover {
 }
 #etusivu {
 background-image: url(./kuvat/7fdeb446-3866-4d32-98c4-5958930677ef.jpeg);
+background-size: cover;
 }
 /*valittu saadaan näkyviin, millä sivulla ollaan*/
 
@@ -129,6 +143,7 @@ table {
 
 /*alatunniste*/
 footer{
+    clear: both;
     font-family: otsikko, "sans serif";
     font-size: 18px;
     color: rgba(87, 54, 4);
