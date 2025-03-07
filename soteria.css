@@ -40,11 +40,13 @@ header{
 .grid-teksti2 {
     margin: 5% 15% 5% 15% ;
     flex-direction: row;
+    background-color: #fff0df;
 }
 
 .sisalto {
     margin: 5% 10% 5% 10% ;
     flex-direction: row;
+    background-color: #fff0df;
 }
 
 /* otsikot*/
@@ -110,13 +112,13 @@ nav {
     padding: 1px;
 }
 
-#soteria {
+.soteria {
     background-image: url(./kuvat/pilvet2.0.jpg);
     padding:55px;
-    background-repeat: no-repeat;
+  background-size: cover;
 }
 #etusivu {
-background-image: url(./kuvat/7fdeb446-3866-4d32-98c4-5958930677ef.jpeg);
+background-image: url(./kuvat/7fdeb446-3866-4d32-98c4-5958930677ef.jpeg); 
 background-size: cover;
 
 }
@@ -152,11 +154,15 @@ footer{
     font-family: otsikko, "sans serif";
     font-size: 18px;
     color: #122620;
-    background-color: white;
+    background-color: rgb(239, 233, 233);
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+#icons {
+    align-items: center;
 }
 
 /*mobiili*/
@@ -165,6 +171,12 @@ footer{
     footer{
         flex-direction: column;
         text-align: center;
+    }
+
+    #indexkuva {
+        width: 20%;
+        height: 30%;
+        margin-right: 20px;
     }
 }
 /*tietokone*/
