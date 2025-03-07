@@ -52,13 +52,21 @@ header{
 /* otsikot*/
 
 h1 {
-   font-family: 'palatino linotype','';
+   font-family: 'customFont', 'Palatino linotype';
     font-size: 40px;
     color: #fff0df;
     text-shadow: 4px 4px #4a7212;
     text-align: center;
     padding-top: 30px;
+
 }
+
+/*fontteja ja font facella saa lisättyä oma lataamia*/
+@font-face{
+    font-family:customFont; /* fontin nimi*/
+    src: url(fontti/BrandenRaulner-L3xJE.otf);   
+}
+
 h2 {
     font-family:'palatino linotype';
     font-size: 25px;
