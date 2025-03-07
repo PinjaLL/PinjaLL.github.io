@@ -134,12 +134,13 @@ background-size: cover;
 
 .toimintakehote {
     border: 2px solid #4a7212;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: #fff0df;
-    font-family: otsikko, "sans serif";
+    font-family: 'customFont', "sans serif";
     font-size:20px;
     color: #4a7212;
-    padding: 10px 20px;
+    padding: 10px 32px;
+    text-decoration: none;
     text-align: center;
     font-weight:bold;
     display: inline-block;
@@ -148,8 +149,9 @@ background-size: cover;
 }
 
 
+
 table {
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 0px;
