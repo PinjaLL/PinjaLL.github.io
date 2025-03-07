@@ -88,7 +88,9 @@ p {
     font-size:20px ;
 }
 #h2yht {
-    margin: 5% 20% 5% 20% ;  
+    margin: 5% 20% 5% 20% ; 
+    color: #4a7212; 
+    text-align: center;
 }
 /*id avulla saadaan css tiedostossa tehtyä tietylle asialle tietty haluttu*/
 
@@ -154,7 +156,7 @@ table {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 0px;
+    padding-left: 15%;
 }
 
 
