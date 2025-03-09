@@ -1,19 +1,24 @@
+body {
+    background-image: url (.kuvat/pilvet1.jpg);
+    
+}
 header{
     text-align: center;
 
 }
-.alisivu-sisalto {
-    margin: 5% 15% 5% 15% ;
+.sisalto {
+    margin: 5% 10% 5% 10% ;
     flex-direction: row;
+    text-align: center;
     background-color: #fff0df;
-    justify-content: space-around;
+    padding: 5px;
 }
 
 .kuva {
     max-width: 40%;
     vertical-align: middle;
     width: 35%;
-    margin: 5% 20% 5% 20% ;
+    margin: 5% 10% 5% 10% ;
 }
 /* yhteystiedot sivun henkilö-kuvat*/
 
@@ -22,6 +27,7 @@ header{
    width: 35%;
    height:55%; 
    float:left;
+   padding: 40px 60px;
    margin-right: 20px;
 }
 
@@ -53,7 +59,7 @@ h1 {
    font-family: 'palatino linotype','';
     font-size: 40px;
     color: #fff0df;
-    text-shadow: 4px 4px #4a7212;
+    text-shadow: 2px 2px #4a7212;
     text-align: center;
     padding-top: 30px;
 }
@@ -78,32 +84,36 @@ p {
     font-size:20px ;
 }
 #h2yht {
-    margin: 5% 20% 5% 20% ;  
+    align-items:left;
+    padding: 80px;
 }
 /*id avulla saadaan css tiedostossa tehtyä tietylle asialle tietty haluttu*/
 
 /*päävalikko*/
 nav {
-    font-family: otsikko, Arial, Helvetica, sans-serif;
+    font-family: 'palatino linotype';
     font-size: 20px;
     text-align: center;
+    display: inline-block;
     color:#122620;
     font-weight: bold;
     justify-content: space-evenly;
 }
+
 .valikko {
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
     width: 100%;
     height: 20px;
     list-style-type: none;
     display: flex;
     padding: 10px;
+
 }
 
 .valikko :hover {
     color: #f8afa6;
-    opacity: 1;
 }
+
 #valittu {
     color: #122620;
     background-color: #f8afa6;
@@ -111,16 +121,16 @@ nav {
 }
 
 #soteria {
-    background-image: url(./kuvat/pilvet2.0.jpg);
-    padding:55px;
+    background-image: url(./kuvat/pilvet2.jpg);
+    padding: 60px;
     background-repeat: no-repeat;
 }
-#etusivu {
-background-image: url(./kuvat/7fdeb446-3866-4d32-98c4-5958930677ef.jpeg);
-background-size: cover;
 
+.logo {
+    float:left;
+    padding: 5px;
+      
 }
-/*valittu saadaan näkyviin, millä sivulla ollaan*/
 
 .toimintakehote {
     border: 2px solid #4a7212;
@@ -137,12 +147,8 @@ background-size: cover;
     cursor: pointer;
 }
 
+.esittely {
 
-table {
-    text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
 }
 
 
@@ -152,12 +158,12 @@ footer{
     font-family: otsikko, "sans serif";
     font-size: 18px;
     color: #122620;
-    background-color: white;
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 
 /*mobiili*/
 @media (max-width: 600px) {
