@@ -11,12 +11,12 @@
 <body>
     <header id = "soteria">
       <nav>
-         <a href="index.html"><img src="kuvat/logo.png"></a>
+         <a href="index.html"><img src="kuvat/logo.png" alt=" sivuston logo"></a>
       </nav>
       <nav class="valikko">
-            <li><a href="index.html">Etusivu</a>
-            <li><a href="palvelut.html">Palvelut</a>
-            <li><a href="yhteystiedot.html" id="valittu">Yhteystiedot</a>
+            <a href="index.html">Etusivu</a>
+            <a href="palvelut.html">Palvelut</a>
+            <a href="yhteystiedot.html" id="valittu">Yhteystiedot</a>
       </nav>
       <h1>Ei huolta. Olemme apunasi.</h1>
       <a href="palvelut.html" class="toimintakehote"> Löydä elämäsi reissu!</a>
@@ -24,11 +24,14 @@
 
 <div class="alisivu-sisalto">   
         <div style="overflow-x: auto" class="esittely"> <!--Liikkuva bar, jos teksti ei mahdo kokonaan näytölle-->
+         <iframe id=kartta src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.6588958747489!2d24.971980176034965!3d60.18637804212683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692097b523e49c9%3A0x1a90b78171aa5ce6!2sKaasutehtaankatu%2020%2C%2000540%20Helsinki!5e0!3m2!1sfi!2sfi!4v1740641591949!5m2!1sfi!2sfi" width="400" height="300" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                  
+         </iframe>
+         <h2>Näin tavoitat meidät</h2>
            <table>
-               <iframe id=kartta src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.6588958747489!2d24.971980176034965!3d60.18637804212683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692097b523e49c9%3A0x1a90b78171aa5ce6!2sKaasutehtaankatu%2020%2C%2000540%20Helsinki!5e0!3m2!1sfi!2sfi!4v1740641591949!5m2!1sfi!2sfi" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-             
-             <h2>Näin tavoitat meidät</h2>
+            <tr>
               <th colspan="2">Viikonpäivinä</th> 
+            </tr>
               
               <tr>
                  <td>ma-ke</td><td> 8-16</td>
@@ -38,16 +41,17 @@
               </tr>
             </table>
 
-            <table></e>
+            <table>
               <tr>
                 <td>Tapaamisia voidaan sopia myös joustavasti!</td>
                 </tr>
            
            </table>
            <table>
-
+           <tr>
             <th>Aukioloaikoina</th>
-                          
+         </tr>
+                    
             <tr>
                <td>puh: 0300-782343 </td>
             </tr>
@@ -64,7 +68,7 @@
           </div>
             
 
-     <h2 id="h2yht">Matkassasi mukana</h2>
+     <h3 id="h2yht">Matkassasi mukana</h3>
      <figure>
       <img class="kuva" src="./kuvat/Kuva3.png" alt="Picture of a staff member">
       <p>CEO, Maria Kuutila</p>
@@ -87,15 +91,15 @@
 </div>
                
  <footer>
-        <div class="icons">  <!--Src luo kuvan linkille-->
-        <a href = "https://www.facebook.com/">
-            <img src="./someicons/facebook.png" height="35px" width="35px">
+        <div > 
+         <a href = "https://www.facebook.com/">
+            <img class="icons" src="./someicons/facebook.png" alt="facebook icon">
          </a>
          <a href="https://www.instagram.com/">
-            <img src ="someicons/instagram.png"height="35px" width="35px">
+            <img class="icons" src ="./someicons/instagram.png" alt="instagram icon">
          </a>
          <a href="https://www.tiktok.com/">
-            <img src ="./someicons/tiktok.png"height="35px" width="35px">
+            <img class="icons" src ="./someicons/tiktok.png" alt=" tiktok icon">
          </a>
     </div>
      <div>

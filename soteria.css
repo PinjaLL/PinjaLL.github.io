@@ -173,8 +173,10 @@ footer{
     padding-bottom: 15px;
 }
 
-#icons {
+.icons {
     align-items: center;
+    width: 35px;
+    height: 35px;
 }
 
 /*mobiili*/
