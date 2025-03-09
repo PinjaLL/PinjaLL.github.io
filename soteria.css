@@ -27,7 +27,6 @@ header{
    width: 35%;
    height:55%; 
    float:left;
-   padding: 40px 60px;
    margin-right: 20px;
 }
 
@@ -46,23 +45,33 @@ header{
 .grid-teksti2 {
     margin: 5% 15% 5% 15% ;
     flex-direction: row;
+    background-color: #fff0df;
 }
 
 .sisalto {
     margin: 5% 10% 5% 10% ;
     flex-direction: row;
+    background-color: #fff0df;
 }
 
 /* otsikot*/
 
 h1 {
-   font-family: 'palatino linotype','';
+   font-family: 'customFont', 'Palatino linotype';
     font-size: 40px;
     color: #fff0df;
     text-shadow: 2px 2px #4a7212;
     text-align: center;
     padding-top: 30px;
+
 }
+
+/*fontteja ja font facella saa lisättyä oma lataamia*/
+@font-face{
+    font-family:customFont; /* fontin nimi*/
+    src: url(fontti/BrandenRaulner-L3xJE.otf);   
+}
+
 h2 {
     font-family:'palatino linotype';
     font-size: 25px;
@@ -84,8 +93,7 @@ p {
     font-size:20px ;
 }
 #h2yht {
-    align-items:left;
-    padding: 80px;
+    margin: 5% 20% 5% 20% ;  
 }
 /*id avulla saadaan css tiedostossa tehtyä tietylle asialle tietty haluttu*/
 
@@ -121,25 +129,26 @@ nav {
 }
 
 #soteria {
-    background-image: url(./kuvat/pilvet2.jpg);
-    padding: 60px;
+    background-image: url(./kuvat/pilvet2.0.jpg);
+    padding:55px;
     background-repeat: no-repeat;
 }
+#etusivu {
+background-image: url(./kuvat/7fdeb446-3866-4d32-98c4-5958930677ef.jpeg);
+background-size: cover;
 
-.logo {
-    float:left;
-    padding: 5px;
-      
 }
+/*valittu saadaan näkyviin, millä sivulla ollaan*/
 
 .toimintakehote {
     border: 2px solid #4a7212;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: #fff0df;
-    font-family: otsikko, "sans serif";
+    font-family: 'customFont', "sans serif";
     font-size:20px;
     color: #4a7212;
-    padding: 10px 20px;
+    padding: 10px 32px;
+    text-decoration: none;
     text-align: center;
     font-weight:bold;
     display: inline-block;
@@ -147,8 +156,14 @@ nav {
     cursor: pointer;
 }
 
+
 .esittely {
 
+table {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
 }
 
 
@@ -158,12 +173,12 @@ footer{
     font-family: otsikko, "sans serif";
     font-size: 18px;
     color: #122620;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
 
 /*mobiili*/
 @media (max-width: 600px) {
@@ -171,6 +186,12 @@ footer{
     footer{
         flex-direction: column;
         text-align: center;
+    }
+
+    #indexkuva {
+        width: 20%;
+        height: 30%;
+        margin-right: 20px;
     }
 }
 /*tietokone*/
