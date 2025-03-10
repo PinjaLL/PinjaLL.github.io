@@ -183,10 +183,10 @@ footer{
         margin-right: 20px;
     }
        .alisivu-sisalto {
+           width: 90%;
         margin: 5% 5% 5% 5% ;
-        flex-direction: row;
+        flex-direction: column;
         background-color: #fff0df;
-        text-align: center;
         justify-content: center;
         align-items: center;
     }
