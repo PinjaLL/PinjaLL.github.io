@@ -106,14 +106,14 @@ p {
     padding: 15px;
 }
 .valikko :hover {
-    color: #f8afa6
-;
+    color: #f8afa6;
 }
 
 #valittu {
     color: #122620;
     background-color: #f8afa6;
     padding: 0px;
+    border-style: double;
     border:10px;
     text-align: center;
 }
