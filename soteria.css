@@ -27,7 +27,7 @@ header{
 }
 .satama {
     width: 35%;
-   height:55%; 
+   height:70%; 
    float:right;
    margin-right: 20px;
 }
@@ -198,7 +198,6 @@ footer{
 
     .soteria{
         background-size: cover;
-        padding: 10%;
     }
 
     footer{
@@ -236,6 +235,8 @@ footer{
      .valikko {
         font-family: otsikko, Arial, Helvetica, sans-serif;
         font-size: 10px;
+        display; inline-flex;
+        justify-content:space-between;
         text-align: center;
         color:#122620;
         font-weight: bold;
