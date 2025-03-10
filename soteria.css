@@ -57,9 +57,8 @@ h1 {
     font-size: 40px;
     color: #fff0df;
     text-shadow: 2px 2px #4a7212;
-    text-align: center;
     padding-top: 30px;
-
+    padding-left: 10px;
 }
 
 /*fontteja ja font facella saa lisättyä oma lataamia*/
@@ -96,8 +95,9 @@ p {
 /*päävalikko*/
 .valikko {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
-    width: 60%;
-    font-size: 20px;
+    width: 70%;
+    font-family:'palatino linotype';
+    font-size: 25px;
     list-style: none;
     font-weight: bold;
     text-align: center;
@@ -108,22 +108,33 @@ p {
 }
 .valikko :hover {
     color: #f8afa6
-;
+
 }
 
 #valittu {
-    color: #122620;
+    color:#fff0df;
     background-color: #f8afa6;
-    padding: 0px;
-    border:10px;
-    text-decoration: wavy;
-    text-align: center;
+    border-style:double;
+    border-width: 5px;
+    border-color: #f8afa6;
+    text-decoration-line: underline;
+    padding-bottom: 30px;
+    border-width: 3px;
+    
+    
+    
+
+    
+}
+a {
+    color:#122620;
+    text-decoration: none;
 }
 
 
 #soteria {
-    background-image: url(./kuvat/pilvet2.jpg);
-    border: 40px;
+    background-image: url("./kuvat/pilvet2.jpg");
+    padding: 80px;
     background-repeat: no-repeat;
 }
 
@@ -144,10 +155,9 @@ p {
 }
 
 table {
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
+    margin-left: 200px;
 }
 
 /*alatunniste*/
@@ -179,7 +189,7 @@ footer{
 /*tietokone*/
 @media screen and (min-width: 1920px) {
     #soteria {
-        background-image: url(./kuvat/pilvet2);
+        background-image: url("./kuvat/pilvet2");
         background-size: cover;
     }
     }
