@@ -167,6 +167,11 @@ footer{
 /*mobiili*/
 @media (max-width: 600px) {
 
+        .soteria{
+        background-size: cover;
+        padding: 10%;
+    }
+
     footer{
         flex-direction: column;
         text-align: center;
@@ -177,6 +182,27 @@ footer{
         height: 30%;
         margin-right: 20px;
     }
+       .alisivu-sisalto {
+           width: 100%;
+        margin: 5% 5% 5% 5% ;
+        flex-direction: column;
+        background-color: #fff0df;
+        justify-content: center;
+        align-items: center;
+    }
+     nav {
+        font-family: otsikko, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        text-align: center;
+        color:#122620;
+        font-weight: bold;
+
+    }
+    table {
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px;
+}
 }
 /*tietokone*/
 @media screen and (min-width: 1920px) {
