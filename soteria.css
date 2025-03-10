@@ -100,22 +100,23 @@ p {
     list-style: none;
     font-weight: bold;
     text-align: center;
-    height: 20px;
     display:inline-flex;
     justify-content:space-between;
-    padding: 15px;
-    text-decoration: ;
+    padding: 10px;
 }
 .valikko :hover {
     color: #f8afa6;
 }
 
 #valittu {
-    color: #f8afa6;
-    background-color: #fff0df;
-    padding: 0px;
-    border:10px;
-    text-align: center;
+    color: #fff0df;
+    background-color: #f8afa6;
+    border-style:double;
+    border-color:#fff0df;
+    border-width: 8px;
+    border-radius: 25px;
+    
+    
 }
 
 a {
@@ -127,7 +128,6 @@ a {
     border: 40px;
     padding: 80px;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .toimintakehote {
