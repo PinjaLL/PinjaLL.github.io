@@ -114,13 +114,8 @@ p {
     color: #f8afa6;
     background-color: #fff0df;
     padding: 0px;
-    text-decoration-line: underline ;
-    border-style: double;
-    border-width:5px;
-    border-color: #fff0df;
-    border-radius: 25px;
-    border-block-end-width: 30px;
-    
+    border:10px;
+    text-align: center;
 }
 
 a {
