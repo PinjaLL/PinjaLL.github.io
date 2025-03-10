@@ -223,6 +223,10 @@ footer{
         margin-right: 20px;
         float: left;
     }
+    .apps {
+        align-text: center;
+        justify-content: center;
+    }
        .alisivu-sisalto {
         width: 100%;
         margin: 5% 5% 5% 5% ;
