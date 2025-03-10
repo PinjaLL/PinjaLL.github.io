@@ -241,8 +241,8 @@ footer{
         color:#122620;
         font-weight: bold;
         width: 70%;
-
-    }
+        padding: 0px;
+     }
     table {
     text-align: center;
     padding-top: 10px;
