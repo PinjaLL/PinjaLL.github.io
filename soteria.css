@@ -115,12 +115,12 @@ p {
     background-color: #f8afa6;
     padding: 0px;
     border:10px;
-    text-decoration: wavy;
     text-align: center;
 }
 
 a {
     color:#122620;
+    text-decoration: none;
 }
 #soteria {
     background-image: url(./kuvat/pilvet.jpg);
