@@ -190,6 +190,14 @@ footer{
         justify-content: center;
         align-items: center;
     }
+     nav {
+        font-family: otsikko, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        text-align: center;
+        color:#122620;
+        font-weight: bold;
+
+    }
 }
 /*tietokone*/
 @media screen and (min-width: 1920px) {
