@@ -177,6 +177,14 @@ footer{
         height: 30%;
         margin-right: 20px;
     }
+       .alisivu-sisalto {
+        margin: 5% 10% 5% 10% ;
+        flex-direction: row;
+        background-color: #fff0df;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 }
 /*tietokone*/
 @media screen and (min-width: 1920px) {
