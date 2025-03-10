@@ -59,6 +59,7 @@ h1 {
     text-shadow: 2px 2px #4a7212;
     text-align: center;
     padding-top: 30px;
+    padding-left: 10px;
 
 }
 
@@ -84,20 +85,21 @@ h3 {
 /* tekstejä*/
 
 p {
-    margin: 5% 20% 5% 20% ;
+    margin: 5% 20% 5% 20%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:20px ;
+    font-size:20px;
 }
 #h2yht {
-    margin: 5% 20% 5% 20% ;  
+    margin: 5% 20% 5% 20%;  
 }
 /*id avulla saadaan css tiedostossa tehtyä tietylle asialle tietty haluttu*/
 
 /*päävalikko*/
 .valikko {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
-    width: 60%;
-    font-size: 20px;
+    width: 70%;
+    font-family:'palatino linotype';
+    font-size: 25px;
     list-style: none;
     font-weight: bold;
     text-align: center;
@@ -107,23 +109,26 @@ p {
     padding: 15px;
 }
 .valikko :hover {
-    color: #f8afa6
-;
+    color: #f8afa6;
 }
 
 #valittu {
-    color: #122620;
+    color: #fff0df;
     background-color: #f8afa6;
-    padding: 0px;
-    border:10px;
-    text-decoration: wavy;
-    text-align: center;
+    border-style: double;
+    border-width: 5px;
+    border-color: #f8afa6
+    text-decoration-line: underline;
+    padding-bottom: 30px;
+    border-width:3px;
 }
 
-
+a {
+    color:#122620;
+}
 #soteria {
-    background-image: url(./kuvat/pilvet2.jpg);
-    border: 40px;
+    background-image: url(/kuvat/pilvet2.jpg);
+    padding: 80px;
     background-repeat: no-repeat;
 }
 
