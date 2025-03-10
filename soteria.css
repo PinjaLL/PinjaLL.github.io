@@ -224,8 +224,8 @@ footer{
         float: left;
     }
     .apps {
-        align-text: center;
-        justify-content: center;
+        align-text: left;
+        justify-content: left;
     }
        .alisivu-sisalto {
         width: 100%;
@@ -237,15 +237,17 @@ footer{
         text-align: left;
     }
      .valikko {
+        position: sticky;
+        display: flex;
+        justify-content:space-between;
         font-family: otsikko, Arial, Helvetica, sans-serif;
         font-size: 10px;
-        display; inline-flex;
-        justify-content:space-between;
         text-align: center;
         color:#122620;
+        background-color: ##fff0df;
         font-weight: bold;
-        width: 70%;
-        padding: 0px;
+        width: %;
+        padding: 0px 20px;
      }
     table {
     text-align: center;
