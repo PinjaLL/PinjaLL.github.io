@@ -167,6 +167,11 @@ footer{
 /*mobiili*/
 @media (max-width: 600px) {
 
+        .soteria{
+        background-size: cover;
+        padding: 10%;
+    }
+
     footer{
         flex-direction: column;
         text-align: center;
