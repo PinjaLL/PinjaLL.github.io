@@ -123,12 +123,9 @@ a {
     color:#122620;
 }
 #soteria {
-    background-image: url(./kuvat/pilvet2.jpg);
-<<<<<<< HEAD
+    background-image: url(./kuvat/pilvet.jpg);
     border: 40px;
-=======
     padding: 80px;
->>>>>>> 5eddcf3138166f1e672d80e3015a0ca4059c863d
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -184,7 +181,7 @@ footer{
 /*tietokone*/
 @media screen and (min-width: 1920px) {
     #soteria {
-        background-image: url("./kuvat/pilvet2");
+        background-image: url(./kuvat/pilvet);
         background-size: cover;
     }
     }
