@@ -166,7 +166,9 @@ footer{
 @media (max-width: 600px) {
 
         .soteria{
+        background-image: url(./kuvat/pilvet.JPG);
         background-size: cover;
+        height: 400px
         padding: 10%;
     }
 
@@ -195,6 +197,15 @@ footer{
         color:#122620;
         font-weight: bold;
 
+    }
+    
+    .valikko {
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+        width: 100px;
+        height: 10px;
+        padding: 5px;
+        margin: 3px 5px;
+        font-size: 15px;
     }
     table {
     text-align: center;
