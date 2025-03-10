@@ -170,8 +170,8 @@ footer{
         text-align: center;
     }
 
-    #indexkuva {
-        width: 20%;
+    .indexkuva {
+        width: 100%;
         height: 30%;
         margin-right: 20px;
     }
