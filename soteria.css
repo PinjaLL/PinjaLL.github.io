@@ -30,7 +30,6 @@ header{
   margin: 5%;
    margin-left: 20px;
    float:right;
- 
 }
     
 .grid-teksti {
@@ -125,8 +124,13 @@ a {
 }
 #soteria {
     background-image: url(./kuvat/pilvet2.jpg);
+<<<<<<< HEAD
     border: 40px;
+=======
+    padding: 80px;
+>>>>>>> 5eddcf3138166f1e672d80e3015a0ca4059c863d
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .toimintakehote {
