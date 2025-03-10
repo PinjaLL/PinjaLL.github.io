@@ -129,6 +129,7 @@ a {
     background-image: url(./kuvat/pilvet2.jpg);
     padding: 80px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .toimintakehote {
