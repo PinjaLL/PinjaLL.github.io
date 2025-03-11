@@ -245,9 +245,8 @@ footer{
         width: 100%;
         display: flex;
         justify-content:space-between;
-        font-family: otsikko, Arial, Helvetica, sans-serif;
+        font-family: 'palatino linotype';
         font-size:10px;
-        text-align: center;
         color:#122620;
         background-color: ##fff0df;
         font-weight: bold;
