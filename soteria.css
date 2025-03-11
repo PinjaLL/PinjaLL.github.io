@@ -265,7 +265,6 @@ footer{
         background-image: url(./kuvat/pilvet.JPG);
         background-size: cover;
     }
-    }
     .valikko { 
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
             width: 70%;
@@ -291,3 +290,4 @@ footer{
             padding-top: 10px;
             padding-bottom: 15px;
     }
+}
