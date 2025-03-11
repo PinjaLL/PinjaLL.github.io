@@ -242,6 +242,7 @@ footer{
         text-align: left;
     }
      .valikko {
+         postition: fixed;
         display: flex;
         justify-content:space-between;
         font-family: otsikko, Arial, Helvetica, sans-serif;
