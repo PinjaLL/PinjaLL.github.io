@@ -246,7 +246,7 @@ footer{
         display: flex;
         justify-content:space-between;
         font-family: otsikko, Arial, Helvetica, sans-serif;
-        font-size: 20px;
+        font-size:10px;
         text-align: center;
         color:#122620;
         background-color: ##fff0df;
