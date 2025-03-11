@@ -243,7 +243,7 @@ footer{
     }
      .valikko {
         width: 100%;
-        display: flex;
+        display: inline-flex;
         justify-content:space-between;
         font-family: otsikko, Arial, Helvetica, sans-serif;
         font-size: 20px;
@@ -251,7 +251,7 @@ footer{
         color:#122620;
         background-color: ##fff0df;
         font-weight: bold;
-        padding: 0px;
+        padding: 20px;
      }
     table {
     text-align: center;
